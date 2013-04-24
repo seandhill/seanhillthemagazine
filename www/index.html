@@ -4,43 +4,230 @@
     <head>
     
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" / >
-        <title>Title</title>
+        <meta name="viewport" content="width=device-width" / >
+        <title>The Magazine</title>
         
         <link href="css/reset.css" rel="stylesheet" type="text/css" />
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
         
-        <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>-->
-        <!--<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>-->
-        <!--<script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>-->
+        <script src="js/jquery-1.8.2.min.js"></script>
+        <script src="js/jquery-ui-1.10.2.custom.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
+        <script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
     
     </head>
 
     <body>
     
-        <header>
-        	 <h1>Sean Hill's Application</h1>
-        </header>
+        <div id="container">
+           
+           <div id="imageSlider">
+                    
+                <div id="slider">
+                    <div id="first" class="sliderBlock"><h1>Sean Hill</h1><p>The Magazine</p></div>
+                    <div id="second" class="sliderBlock"><h1>You've probably heard of me.</h1></div>
+                    <div id="third" class="sliderBlock">
+                    	<h1>How this works:</h1>
+                        <div id="thirdRow1">
+                        	<div id="thirdRowImage1">
+                            </div>
+                            <div id="thirdRowText1">
+                            	<h2>Read</h2>
+                                <p>Reading this lovely magzine is quite simple and fun. Just use your index finger and slide it up and down on the touch screen. Easy!</p>
+                            </div>
+                        </div>
+                        <div id="thirdRow2">
+                        	<div id="thirdRowImage2">
+                            </div>
+                            <div id="thirdRowText2">
+                            	<h2>Explore</h2>
+                                <p>Want to read more? Slide your index finger left and right to find new stories and articles. You won’t know what you find until you look!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="fourth" class="sliderBlock">
+                    	<h1>Content</h1>
+                        <h2>Featured Articles</h2>
+                    	<ul id="nav">
+                        	<li><h2>Letter from the Editor</h2><p>by Sean Hill</p></li>
+                            <li><h2>Music for your Earholes</h2><p>by Sean Hill</p></li>
+                            <li><h2>Food for Thought</h2><p>by Sean Hill</p></li>
+                            <li><h2>Interview: Sean Hill</h2><p>by Sean Hill</p></li>
+                            <li><h2>Sean Hill: A Retrospective</h2><p>by Sean Hill</p></li>
+                            <li><h2>THE FAQ BBQ</h2><p>by Sean Hill</p></li>
+                        </ul>
+                    </div>
+                    <div id="fifth" class="sliderBlock"></div>
+                </div>
+                
+            </div>
+            
+            <!--<div id="buttonContainer">
+                <a href="#" id="sliderPrevButton"></a>
+                <a href="#" id="sliderNextButton"></a>
+            </div>-->
+            
+        </div>
         
-        <section id="content">
-        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            
-        </section>
+        <script>
+		// INITIALIZATION
+		$(document).ready(function() {
 
+				$("#sliderPrevButton").hide();	
+		
+        });
+		
+		// VARIABLES
+		var currentSliderObject = 0;
+		var sectionArray=new Array();
+
+		sectionArray[0]="first";
+		
+		sectionArray[1]="second";
+		
+		sectionArray[2]="third";
+		
+		sectionArray[3]="fourth";
+		
+		sectionArray[4]="fifth";
+		
+		var swipeTriggered = false;
+		var startingPoint = 0;
+		var swipeThreshold = 30;
+		var direction = 0;
+		
+		var previousSliderButtonVisible = false;
+		var nextSliderButtonVisible = true;
+		
+		// MOUSE EVENTS
+		$('#sliderPrevButton').on('tap', function(event){
+			console.log("tap: previous")
+			event.preventDefault();
+			//event.stopPropagation();
+			slideToPrevious();
+		});
+		
+		$('#sliderNextButton').on('tap', function(event){ 
+		console.log("tap: next")
+			event.preventDefault();
+			//event.stopPropagation();
+			slideToNext();	
+		});
+		
+		// TOUCH EVENTS
+		$('#slider').on('vmousedown', function(event){ 
+			console.log("vmousedown")
+			swipeTriggered = false;
+			//event.stopPropagation();
+			startingPoint = $('#slider').offset().left;
+			$('#slider').draggable( { axis: "x" } );
+		});
+		
+		$('#slider').on('vmouseup', function(event){ 
+		console.log("vmouseup")
+			//event.stopPropagation();
+			if(swipeTriggered == false){
+
+				if(startingPoint+swipeThreshold<$('#slider').offset().left){
+					console.log("vmousedown: swiperight")
+					//alert('swiperight')
+					slideToPrevious();
+				}
+				
+				if(startingPoint-swipeThreshold>$('#slider').offset().left){
+					console.log("vmousedown: swipeleftt")
+					//alert('swipeleft')
+					slideToNext();
+				}
+
+			};
+
+		});
+			
+		$('#slider').on('swiperight', function(event){ 
+			console.log("swiperight")
+			//event.stopPropagation();
+			//alert('swiperight')
+			//swipeTriggered = true;
+			slideToPrevious();
+			
+		});
+		
+		$('#slider').on('swipeleft', function(event){ 
+		console.log("swipeleft")
+			//event.stopPropagation();
+			//alert('swipeleft')
+			//swipeTriggered = true;
+			slideToNext();
+		});
+		
+		// FUNCTIONS
+		function slideToPrevious(){
+			if(currentSliderObject>0){
+				swipeTriggered = true;
+				direction = -1;
+			} else {
+				direction = 0;
+			};
+			animateSlider(direction);
+		};
+		
+		function slideToNext(){
+			if(currentSliderObject<sectionArray.length-1){
+				swipeTriggered = true;
+				direction = 1;		
+			} else{
+				direction = 0;
+			};
+			animateSlider(direction);
+		};
+		
+		function animateSlider(direction){
+			console.log("animateSlider");
+			console.log(direction);
+			currentSliderObject = currentSliderObject+direction;
+			console.log("currentSliderObject: "+currentSliderObject);
+			//alert($("#"+sectionArray[currentSliderObject]).offset().left);
+			console.log("#"+sectionArray[currentSliderObject])
+			console.log($("#"+sectionArray[currentSliderObject]).offset().left)
+			//$('#imageSlider').scrollTo($("#"+sectionArray[currentSliderObject]).offset().left, 1000,{easing:'easeOutExpo', axis:'x'});
+			//$('#imageSlider').scrollTo(768*currentSliderObject, 1000,{easing:'easeOutExpo', axis:'x'});
+			var location = $("#"+sectionArray[currentSliderObject]).offset().left - $('#slider').offset().left
+			console.log("$('#slider').offset().left: "+ $('#slider').offset().left )
+			console.log("location: "+location)
+			$('#imageSlider').scrollTo(location, 1000,{easing:'easeOutExpo', axis:'x'});
+			//startingPoint = 0;
+			checkSliderButtons();
+		};
+		
+		function checkSliderButtons(){
+			if(currentSliderObject==0){
+				if(previousSliderButtonVisible==true){
+					previousSliderButtonVisible = false;
+					$("#sliderPrevButton").fadeOut(500); 
+				};
+			}else {
+				if(previousSliderButtonVisible==false){
+					previousSliderButtonVisible = true;
+					$("#sliderPrevButton").fadeIn(500); 
+				};
+			};
+			
+			if(currentSliderObject==sectionArray.length-1){
+				if(nextSliderButtonVisible==true){
+					nextSliderButtonVisible = false;
+					$("#sliderNextButton").fadeOut(500); 
+				};
+			}else {
+				if(nextSliderButtonVisible==false){
+					nextSliderButtonVisible = true;
+					$("#sliderNextButton").fadeIn(500); 
+				};
+			};
+		};
+ 		</script>
+    
     </body>
 
 </html>
