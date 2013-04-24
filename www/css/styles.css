@@ -65,19 +65,22 @@ p{
 	#imageSlider{
 		position:relative;
 		width:100%;
-		padding-bottom:480px;
+		height:480px; 
 		margin:0 auto;
 		overflow-x:hidden;
 	}
 	
 	#slider{
 		position:absolute;
+		/*position:relative;*/
+		/*width:3840px;*/
 		width:999999px;
+		height:100%;
 	}
 	
 	#imageSlider #slider .sliderBlock{
 		width:320px;
-		display:block;
+		height:480px;
 		float:left;
 		overflow-y:scroll;
 	}
@@ -185,6 +188,23 @@ p{
 		font-size:14px;
 		line-height:21px;
 	}
+	#thirdRow3{
+		width:93.75%;
+		margin-top:20px;
+		margin-left:3.125%;
+		margin-right:3.125%;
+		float:left;
+	}
+	#thirdRowText3{
+		width:100%;
+	}
+	#thirdRowText3 p{
+		text-align:center;
+		font-family: 'RobotoLightItalic';
+		font-size:14px;
+		line-height:21px;
+		margin-bottom:21px;
+	}
 	
 	/* PAGE 4 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
 	#fourth{
@@ -195,6 +215,7 @@ p{
 		color:#FFF;
 		font-size:18px;
 		line-height:44px;
+		margin-bottom:20px;
 		text-align:center;
 		background-color:#000000;
 	}
@@ -202,13 +223,13 @@ p{
 		color:#F05853;
 		font-size:18px;
 		text-align:center;
-		margin-top:20px;
 	}
 	#nav{
 		width:93.75%;
 		margin-left:3.125%;
 		margin-right:3.125%;
-		margin-top:20px;
+		margin-top:10px;
+		margin-bottom:20px;
 	}
 	#nav h2{
 		color:#000;
@@ -222,10 +243,33 @@ p{
 	#nav li{
 		display:block;
 		text-align:center;
+		padding-top:10px;
 		padding-bottom:10px;
 		border-bottom:1px solid #000;
 	}
 	#nav li:last-child{
+		border-bottom:none;
+	}
+	
+	#nav2{
+		width:93.75%;
+		margin-left:3.125%;
+		margin-right:3.125%;
+		margin-top:10px;
+		margin-bottom:20px;
+	}
+	#nav2 h2{
+		color:#000;
+		font-size:14px;
+	}
+	#nav2 li{
+		display:block;
+		text-align:center;
+		padding-top:10px;
+		padding-bottom:10px;
+		border-bottom:1px solid #000;
+	}
+	#nav2 li:last-child{
 		border-bottom:none;
 	}
 	
