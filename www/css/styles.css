@@ -54,12 +54,16 @@ h2{
 p{
 	font-family: 'RobotoLight';
 }
+a{
+	text-decoration:none;
+}
 
 
 /* MOBILE STYLES */
 @media only screen and (max-width: 767px){
 	#container {
 		width: 320px;
+		margin:0 auto;
 	}
 	
 	#imageSlider{
@@ -94,12 +98,18 @@ p{
 		background-repeat:no-repeat;
 		float:left;
 	}
+	#titleBlock{
+		margin-top:200px;
+		margin-left:20%;
+		margin-right:20%;
+		padding:15px;
+		background-color:rgba(0, 0, 0, .7);
+		border:1px solid #fff;
+	}
 	#first h1{
 		color:#FFF;
 		font-size:30px;
 		text-align:center;
-		margin-top:200px;
-		text-shadow: 0 2px 7px rgba(0, 0, 0, .3);
 	}
 	#first p{
 		color:#FFF;
@@ -108,7 +118,6 @@ p{
 		margin-top:5px;
 		text-align:center;
 		text-transform:uppercase;
-		text-shadow: 0 2px 7px rgba(0, 0, 0, .3);
 	}
 	
 	/* PAGE 2 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -250,6 +259,10 @@ p{
 	#nav li:last-child{
 		border-bottom:none;
 	}
+	#nav li a:link, a:visited, a:hover, a:active{
+		color:#000;
+		text-decoration:none;
+	}
 	
 	#nav2{
 		width:93.75%;
@@ -271,6 +284,78 @@ p{
 	}
 	#nav2 li:last-child{
 		border-bottom:none;
+	}
+	#nav2 li a:link, a:visited, a:hover, a:active{
+		color:#000;
+		text-decoration:none;
+	}
+	
+	/* PAGE 5 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	#fifth{
+		width:100%;
+		padding-top:225px;
+		background: url(../images/background_editor.jpg) fixed no-repeat ;
+		background-size: 100%;
+		background-position: top center;
+		padding:1px 0;
+	}
+	#fifthRow1{
+		background-color:#FFF;
+	}
+	#fifthRow1 h1{
+		height:44px;
+		color:#FFF;
+		font-size:18px;
+		line-height:44px;
+		margin-top:225px;
+		text-align:center;
+		background-color:#000000;
+	}
+	#fifthRowText1{
+		width:93.75%;
+		margin-left:3.125%;
+		margin-right:3.125%;
+		padding-top:20px;
+		padding-bottom:20px;
+		/*background-color:#FFFFFF;*/
+	}
+	#fifthRowText1 p{
+		font-size:14px;
+		line-height:21px;
+	}
+	
+	/* PAGE 6 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	#sixth{
+		width:100%;
+		height:225px;
+		background: url(../images/background_music.jpg) fixed no-repeat ;
+		background-size: 100% ;
+		background-position: top center;
+		padding:1px 0;
+	}
+	#sixthRow1{
+		background-color:#FFF;
+	}
+	#sixthRow1 h1{
+		height:44px;
+		color:#FFF;
+		font-size:18px;
+		line-height:44px;
+		margin-top:225px;
+		text-align:center;
+		background-color:#000000;
+	}
+	#sixthRowText1{
+		width:93.75%;
+		margin-left:3.125%;
+		margin-right:3.125%;
+		padding-top:20px;
+		padding-bottom:20px;
+		/*background-color:#FFFFFF;*/
+	}
+	#sixthRowText1 p{
+		font-size:14px;
+		line-height:21px;
 	}
 	
 	/* Buttons --------------------------------------------------------------------------------------------------------------------------------------------------------- */
