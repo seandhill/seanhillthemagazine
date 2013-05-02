@@ -20,6 +20,16 @@
     font-style: normal;
 }
 @font-face {
+    font-family: 'RobotoItalic';
+    src: url(../fonts/Roboto-Italic-webfont.eot);
+    src: url(../fonts/Roboto-Italic-webfont.eot) format('embedded-opentype'),
+         url(../fonts/Roboto-Italic-webfont.woff) format('woff'),
+         url(../fonts/Roboto-Italic-webfont.ttf) format('truetype'),
+         url(../fonts/Roboto-Italic-webfont.svg) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'RobotoBlack';
     src: url(../fonts/Roboto-Black-webfont.eot);
     src: url(../fonts/Roboto-Black-webfont.eot) format('embedded-opentype'),
@@ -56,6 +66,10 @@ p{
 }
 a{
 	text-decoration:none;
+}
+
+.italicText{
+	font-family: 'RobotoLightItalic';
 }
 
 
@@ -102,20 +116,34 @@ a{
 		margin-top:200px;
 		margin-left:20%;
 		margin-right:20%;
-		padding:15px;
+		padding:15px 15px 12px;
 		background-color:rgba(0, 0, 0, .7);
-		border:1px solid #fff;
+	}
+	#swipeBlock{
+		width:100%;
+		height:44px;
+		float:left;
+		margin-top:152px;
+		background-color:rgba(0, 0, 0, .7);
 	}
 	#first h1{
 		color:#FFF;
 		font-size:30px;
 		text-align:center;
+		margin-bottom:5px;
+		border-bottom:1px solid #fff;
 	}
-	#first p{
+	#titleBlock p{
 		color:#FFF;
 		font-size: 14px;
 		line-height:21px;
-		margin-top:5px;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	#swipeBlock p{
+		color:#FFF;
+		font-size: 14px;
+		line-height:44px;
 		text-align:center;
 		text-transform:uppercase;
 	}
@@ -130,7 +158,7 @@ a{
 		color:#FFF;
 		font-size:18px;
 		text-align:center;
-		margin-top:200px;
+		margin-top:195px;
 	}
 	
 	/* PAGE 3 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -155,7 +183,9 @@ a{
 	#thirdRowImage1{
 		width:46.67%;
 		padding-top:56.67%;
-		background-color:#666;
+		background-image:url(../images/touch1.jpg);
+		background-repeat:no-repeat;
+		background-size:100%;
 		float:left;
 	}
 	#thirdRowText1{
@@ -181,7 +211,9 @@ a{
 	#thirdRowImage2{
 		width:46.67%;
 		padding-top:56.67%;
-		background-color:#666;
+		background-image:url(../images/touch2.jpg);
+		background-repeat:no-repeat;
+		background-size:100%;
 		float:left;
 	}
 	#thirdRowText2{
@@ -297,7 +329,7 @@ a{
 		background: url(../images/background_editor.jpg) fixed no-repeat ;
 		background-size: 100%;
 		background-position: top center;
-		padding:1px 0;
+		padding:1px 0 0 0;
 	}
 	#fifthRow1{
 		background-color:#FFF;
@@ -324,6 +356,39 @@ a{
 		line-height:21px;
 	}
 	
+	/* QUOTE 1 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	#quote1{
+		width:100%;
+		height:225px;
+		background: url(../images/quote_freeman.jpg) fixed no-repeat ;
+		background-size: 100% ;
+		background-position: top center;
+		padding:1px 0 0 0;
+	}
+	#quote1Row1{
+		background-color:rgba(240, 88, 83, .6);
+		margin-top:480px;
+	}
+	#quote1RowText1{
+		width:93.75%;
+		height:360px;
+		padding-top:120px;
+		margin-left:3.125%;
+		margin-right:3.125%;
+		color:#FFF;
+		text-align:center;
+	}
+	#quote1RowText1 h1{
+		font-family: 'RobotoBlackItalic';
+		font-size:24px;
+		line-height:36px;
+	}
+	#quote1RowText1 p{
+		font-family: 'RobotoItalic';
+		font-size:24px;
+		line-height:36px
+	}
+	
 	/* PAGE 6 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
 	#sixth{
 		width:100%;
@@ -331,7 +396,7 @@ a{
 		background: url(../images/background_music.jpg) fixed no-repeat ;
 		background-size: 100% ;
 		background-position: top center;
-		padding:1px 0;
+		padding:1px 0 0 0;
 	}
 	#sixthRow1{
 		background-color:#FFF;
@@ -354,6 +419,40 @@ a{
 		/*background-color:#FFFFFF;*/
 	}
 	#sixthRowText1 p{
+		font-size:14px;
+		line-height:21px;
+	}
+	
+	/* PAGE 7 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	#seventh{
+		width:100%;
+		height:225px;
+		background: url(../images/background_food.jpg) fixed no-repeat ;
+		background-size: 100% ;
+		background-position: top center;
+		padding:1px 0 0 0;
+	}
+	#seventhRow1{
+		background-color:#FFF;
+	}
+	#seventhRow1 h1{
+		height:44px;
+		color:#FFF;
+		font-size:18px;
+		line-height:44px;
+		margin-top:225px;
+		text-align:center;
+		background-color:#000000;
+	}
+	#seventhRowText1{
+		width:93.75%;
+		margin-left:3.125%;
+		margin-right:3.125%;
+		padding-top:20px;
+		padding-bottom:20px;
+		/*background-color:#FFFFFF;*/
+	}
+	#seventhRowText1 p{
 		font-size:14px;
 		line-height:21px;
 	}
@@ -383,6 +482,66 @@ a{
 	
 	#sliderNextButton:hover, #sliderPrevButton:hover{
 		
+	}
+	
+	/* Accordion --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	#accordion {
+		margin-top:10px;
+	}
+	
+	#accordion > div {
+		width:100%;
+		color:#FFF;
+	}
+	
+	#accordion > div > div:first-child {
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		-o-box-sizing:border-box;
+		box-sizing:border-box;
+		width:100%; 
+		height:44px;
+		line-height:44px;
+		overflow:hidden;
+		white-space:no-wrap;
+		text-align:center;
+		background: url(../images/arrow.png) 10px 50% no-repeat, #f05853;
+		font-weight:bold;
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		-moz-tap-highlight-color: rgba(0,0,0,0);
+		-o-tap-highlight-color: rgba(0,0,0,0);
+		tap-highlight-color: rgba(0,0,0,0);
+	}
+	
+	#accordion > div.acOpen > div:first-child {
+	
+	}
+	
+	#accordion > div > div:last-child {
+		-webkit-box-sizing:border-box;
+		width:100%;
+		padding:10px;
+		background-color:#9f3734;
+	}
+	
+	/* The followings are the only styles needed by the accordion */
+	#accordion {
+		position:relative;
+	}
+	
+	#accordion > div {
+		position:absolute;
+		overflow:hidden;
+	}
+	
+	#accordion > div > div:first-child {
+		position:relative;
+		z-index:11 !important;		/* z-index can be any value greater than "div:last-child" z-index */
+	}
+	
+	#accordion > div > div:last-child {
+		position:absolute;
+		z-index:10;
 	}
 }
 
