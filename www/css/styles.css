@@ -71,6 +71,23 @@ a{
 .italicText{
 	font-family: 'RobotoLightItalic';
 }
+.clear{
+	clear:both;
+}
+
+.quoteBlock{
+	width:100%;
+	height:44px;
+	margin-top:436px;
+	background-color:rgba(0, 0, 0, .7);
+}
+.quoteBlock p{
+	color:#FFF;
+	font-size:14px;
+	line-height:44px;
+	text-align:center;
+	text-transform:uppercase;
+}
 
 
 /* MOBILE STYLES */
@@ -359,7 +376,7 @@ a{
 	/* QUOTE 1 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
 	#quote1{
 		width:100%;
-		height:225px;
+		height:480px;
 		background: url(../images/quote_freeman.jpg) fixed no-repeat ;
 		background-size: 100% ;
 		background-position: top center;
@@ -367,12 +384,12 @@ a{
 	}
 	#quote1Row1{
 		background-color:rgba(240, 88, 83, .6);
-		margin-top:480px;
+		
 	}
 	#quote1RowText1{
 		width:93.75%;
-		height:360px;
-		padding-top:120px;
+		height:320px;
+		padding-top:160px;
 		margin-left:3.125%;
 		margin-right:3.125%;
 		color:#FFF;
@@ -423,6 +440,38 @@ a{
 		line-height:21px;
 	}
 	
+	/* QUOTE 2 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	#quote2{
+		width:100%;
+		height:225px;
+		background: url(../images/quote_cruise.jpg) fixed no-repeat ;
+		background-size: 100% ;
+		background-position: top center;
+		padding:1px 0 0 0;
+	}
+	#quote2Row1{
+		background-color:rgba(240, 88, 83, .6);
+	}
+	#quote2RowText1{
+		width:93.75%;
+		height:320px;
+		padding-top:160px;
+		margin-left:3.125%;
+		margin-right:3.125%;
+		color:#FFF;
+		text-align:center;
+	}
+	#quote2RowText1 h1{
+		font-family: 'RobotoBlackItalic';
+		font-size:24px;
+		line-height:36px;
+	}
+	#quote2RowText1 p{
+		font-family: 'RobotoItalic';
+		font-size:24px;
+		line-height:36px
+	}
+	
 	/* PAGE 7 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
 	#seventh{
 		width:100%;
@@ -455,6 +504,145 @@ a{
 	#seventhRowText1 p{
 		font-size:14px;
 		line-height:21px;
+		margin-bottom:15px;
+	}
+	
+	/* QUOTE 3 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	#quote3{
+		width:100%;
+		height:480px;
+		background: url(../images/quote_swift.jpg) fixed no-repeat ;
+		background-size: 100% ;
+		background-position: top center;
+		padding:1px 0 0 0;
+	}
+	#quote3Row1{
+		background-color:rgba(240, 88, 83, .6);
+	}
+	#quote3RowText1{
+		width:93.75%;
+		height:320px;
+		padding-top:160px;
+		margin-left:3.125%;
+		margin-right:3.125%;
+		color:#FFF;
+		text-align:center;
+	}
+	#quote3RowText1 h1{
+		font-family: 'RobotoBlackItalic';
+		font-size:24px;
+		line-height:36px;
+	}
+	#quote3RowText1 p{
+		font-family: 'RobotoItalic';
+		font-size:24px;
+		line-height:36px
+	}
+	
+	/* PAGE 8 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	#eighth{
+		width:100%;
+		height:225px;
+		background: url(../images/background_bbq.jpg) fixed no-repeat ;
+		background-size: 100% ;
+		background-position: top center;
+		padding:1px 0 0 0;
+	}
+	#eighthRow1{
+		background-color:#FFF;
+	}
+	#eighthRow1 h1{
+		height:44px;
+		color:#FFF;
+		font-size:18px;
+		line-height:44px;
+		margin-top:225px;
+		text-align:center;
+		background-color:#000000;
+	}
+	#eighthRowText1{
+		width:93.75%;
+		margin-left:3.125%;
+		margin-right:3.125%;
+		padding-top:20px;
+		padding-bottom:20px;
+		/*background-color:#FFFFFF;*/
+	}
+	#eighthRowText1 p{
+		font-size:14px;
+		line-height:21px;
+	}
+	
+	/* PAGE 9 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	#ninth{
+		width:100%;
+		height:480px;
+		background: url(../images/background_minneapolis.jpg) fixed no-repeat ;
+		background-size: 100% ;
+		background-position:top center;
+	}
+	#ninthRow1{
+		background-color:#FFF;
+	}
+	#ninthRowText1{
+		width:68.75%;
+		margin-top:50px;
+		margin-left:14%;
+		margin-right:14%;
+		padding-left:1.625%;
+		padding-right:1.625%;
+		padding-bottom:20px;
+		background-color:rgba(0, 0, 0, .6);
+		float:left;
+	}
+	#ninthRowText1 h1{
+		color:#FFF;
+		font-size:18px;
+		line-height:27px;
+		text-align:center;
+		margin-top:20px;
+		margin-bottom:10px;
+	}
+	#ninthRowText1 p{
+		color:#FFF;
+		font-size:14px;
+		line-height:21px;
+		text-align:center;
+	}
+	
+	#twitter{
+		width:80%;
+		height:44px;
+		background-color:#4099ff;
+		background-image:url(../images/twitter.png);
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:100%;
+		margin-top:20px;
+		margin-left:10%;
+		margin-right:10%;
+	}
+	#twitter p{
+		float:left;
+		line-height:44px;
+		margin-left:50px;
+	}
+	#linkedin{
+		width:80%;
+		height:44px;
+		background-color:#4875b4;
+		background-image:url(../images/linkedin.png);
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:100%;
+		margin-top:20px;
+		margin-left:10%;
+		margin-right:10%;
+	}
+	#linkedin p{
+		float:left;
+		line-height:44px;
+		margin-left:50px;
 	}
 	
 	/* Buttons --------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -486,7 +674,7 @@ a{
 	
 	/* Accordion --------------------------------------------------------------------------------------------------------------------------------------------------------- */
 	#accordion {
-		margin-top:10px;
+		margin-bottom:74px;
 	}
 	
 	#accordion > div {
@@ -505,7 +693,8 @@ a{
 		overflow:hidden;
 		white-space:no-wrap;
 		text-align:center;
-		background: url(../images/arrow.png) 10px 50% no-repeat, #f05853;
+		background: url(../images/arrow2.png) 50% no-repeat, #f05853;
+		background-size:100%;
 		font-weight:bold;
 		-webkit-tap-highlight-color: rgba(0,0,0,0);
 		-moz-tap-highlight-color: rgba(0,0,0,0);
@@ -521,12 +710,20 @@ a{
 		-webkit-box-sizing:border-box;
 		width:100%;
 		padding:10px;
-		background-color:#9f3734;
+		background-color:#26a673;
+	}
+	#accordion > div > div:last-child h2 {
+		font-size:14px;
+		margin-top:10px;
 	}
 	
 	/* The followings are the only styles needed by the accordion */
 	#accordion {
 		position:relative;
+	}
+	
+	.acOpen {
+		margin: 0 0 -10px 0 !important;
 	}
 	
 	#accordion > div {
@@ -547,61 +744,16 @@ a{
 
 /* TABLET STYLES */
 @media only screen and (min-width: 768px) and (max-width: 1024px){
-	#container {
-		width: 768px;
-	}
-	
-	#imageSlider{
-		position:relative;
-		width:100%;
-		padding-bottom:1024px;
-		margin:0 auto;
-		overflow:hidden;
-	}
-	
-	#slider{
-		position:absolute;
-		width:999999px;
-		height:100%;
-	}
-	
-	#imageSlider #slider .sliderBlock{
-		width:768px;
-		background-image:url(../images/image1.jpg);
-		display:block;
-		float:left;
-		overflow:scroll
-	}
-	
-	#buttonContainer{
-		width:120px;
-		margin-left:auto;
-		margin-right:auto;
-	}
-	
-	#sliderNextButton, #sliderPrevButton{
-		display:block;
-		width:40px;
-		height:40px;
-	}
-	
-	#sliderNextButton{
-		background:url(../images/nextArrow.jpg) center center;
-		float:right;
-	}
-	
-	#sliderPrevButton{
-		background:url(../images/prevArrow.jpg) center center;
-		float:left;
-	}
-	
-	#sliderNextButton:hover, #sliderPrevButton:hover{
-		
+	*{
+		display:none;
 	}
 }
 
 /* DESKTOP STYLES */
 @media only screen and (min-width: 1025px){
+	*{
+		display:none;
+	}
 
 }
 

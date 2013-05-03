@@ -14,7 +14,7 @@
 (function(){
 function accordion (el, scroll) {
 	var that = this,
-		top = 0,
+		/*top = 0,*/
 		accordions, i, l;
 
 	that.el = document.getElementById(el);
@@ -40,7 +40,7 @@ function accordion (el, scroll) {
 		top += that.wrappers[i].offsetHeight;
 	}
 	
-	that.el.style.height = top + 'px';
+	/*that.el.style.height = top + 'px';*/
 
 	for (i=0, l=that.handles.length; i<l; i++) {
 		that.handles[i].addEventListener('click', that, false);
@@ -107,7 +107,7 @@ accordion.prototype = {
 			}
 		}
 		
-		that.el.style.height = fullHeight + height + 'px';
+		that.el.style.height = height + 'px';
 
 		document.addEventListener('webkitTransitionEnd', that, false);
 
