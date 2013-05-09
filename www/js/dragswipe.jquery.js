@@ -29,7 +29,6 @@ $.fn.prevPage = function() {
 	$(this).gotoPage(options.current_page,true);
 }
 
-
 // navigate to the next page
 $.fn.nextPage = function() {
 	var options = CONFIGS[$(this).data('dragswipe_id')];
@@ -67,11 +66,36 @@ $.fn.updateOffset = function(offset,snap) {
 	
 }
 
+// MY HACK TO EXTEND THIS WIDGET FOR NON-LINEAR NAVIGATION ///////////////////////////////////
+$.fn.determinePage = function(navItem) {
+	
+	console.log("navItem: "+navItem);
+	
+	var options = CONFIGS[$(this).data('dragswipe_id')];
+	options.current_page = (options.current_page+navItem);
+	
+	console.log("options.current_page (DP): "+options.current_page);
+	
+	CONFIGS[$(this).data('dragswipe_id')] = options;
+
+	$(this).gotoPage(options.current_page,true);
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 $.fn.gotoPage = function(page,snap) {
-
+	console.log("page: "+page);
+	
+	//console.log("CONFIGS[$(this).data('dragswipe_id')]: "+CONFIGS[$(this).data('dragswipe_id')]);
+	
 	var options = CONFIGS[$(this).data('dragswipe_id')];
+	//console.log("options: "+options);
+	
 	options.current_page = page;
+	console.log("options.current_page: "+options.current_page);
+	
+	console.log("CONFIGS[$(this).data('dragswipe_id')]: "+CONFIGS[$(this).data('dragswipe_id')].current_page);
+	
 	if (options.current_page < 0) {
 		options.current_page = 0;
 	}
@@ -81,7 +105,7 @@ $.fn.gotoPage = function(page,snap) {
 
 	newoffset =  -(options.current_page * options.width);
 	options.offset=newoffset;
-//	console.log('Going to page',options.current_page,'of',options.page_count,'offset',options.offset);
+	// console.log('Going to page',options.current_page,'of',options.page_count,'offset',options.offset);
 	if (options.current_page_element) {
 		$(options.current_page_element).html(options.current_page+1);
 	}

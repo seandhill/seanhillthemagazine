@@ -371,6 +371,7 @@ a{
 	#fifthRowText1 p{
 		font-size:14px;
 		line-height:21px;
+		margin-bottom:15px;
 	}
 	
 	/* QUOTE 1 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -435,9 +436,47 @@ a{
 		padding-bottom:20px;
 		/*background-color:#FFFFFF;*/
 	}
+	#sixthRowText1 h2{
+		font-size:14px;
+		margin-bottom:5px;
+	}
 	#sixthRowText1 p{
 		font-size:14px;
 		line-height:21px;
+		margin-bottom:15px;
+	}
+	
+	#sixthRowPic1{
+		width:100%;
+		height:300px;
+		background-image: url(../images/music001.jpg);
+		background-repeat:no-repeat;
+		background-size:100%;
+		margin-bottom:15px;
+	}
+	#sixthRowPic2{
+		width:100%;
+		height:300px;
+		background-image: url(../images/music002.jpg);
+		background-repeat:no-repeat;
+		background-size:100%;
+		margin-bottom:15px;
+	}
+	#sixthRowPic3{
+		width:100%;
+		height:300px;
+		background-image:url(../images/music003.jpg);
+		background-repeat:no-repeat;
+		background-size:100%;
+		margin-bottom:15px;
+	}
+	#sixthRowPic4{
+		width:100%;
+		height:300px;
+		background-image:url(../images/music004.jpg);
+		background-repeat:no-repeat;
+		background-size:100%;
+		margin-bottom:15px;
 	}
 	
 	/* QUOTE 2 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -476,6 +515,7 @@ a{
 	#seventh{
 		width:100%;
 		height:225px;
+		background-color:#000;
 		background: url(../images/background_food.jpg) fixed no-repeat ;
 		background-size: 100% ;
 		background-position: top center;
@@ -564,13 +604,18 @@ a{
 		width:93.75%;
 		margin-left:3.125%;
 		margin-right:3.125%;
-		padding-top:20px;
 		padding-bottom:20px;
 		/*background-color:#FFFFFF;*/
+	}
+	#eighthRowText1 h2{
+		font-size:14px;
+		margin-top:20px;
+		margin-bottom:5px;
 	}
 	#eighthRowText1 p{
 		font-size:14px;
 		line-height:21px;
+		margin-bottom:10px;
 	}
 	
 	/* PAGE 9 --------------------------------------------------------------------------------------------------------------------------------------------------------- */
